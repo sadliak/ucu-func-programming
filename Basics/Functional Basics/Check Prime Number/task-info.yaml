@@ -3,8 +3,8 @@ files:
 - name: src/PrimeCheckerTask.scala
   visible: true
   placeholders:
-  - offset: 61
-    length: 3
+  - offset: 94
+    length: 253
     placeholder_text: ???
     initial_state:
       length: 3

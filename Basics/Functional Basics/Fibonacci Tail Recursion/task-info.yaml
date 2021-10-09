@@ -3,8 +3,8 @@ files:
 - name: src/TailFibonacciTask.scala
   visible: true
   placeholders:
-  - offset: 29
-    length: 38
+  - offset: 62
+    length: 320
     placeholder_text: |-
       def fibonacciImpl2(): Int => Int = {
               def fun: Int => Int = depth => {
