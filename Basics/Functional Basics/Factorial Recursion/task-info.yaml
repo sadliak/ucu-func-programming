@@ -11,7 +11,7 @@ files:
       offset: 67
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       @scala.annotation.tailrec def factorialHelper(state: Long, n: Int): Long = {
             if (n == 0) state

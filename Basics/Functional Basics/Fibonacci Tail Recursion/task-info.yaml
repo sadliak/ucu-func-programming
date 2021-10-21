@@ -19,7 +19,7 @@ files:
       offset: 29
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       @scala.annotation.tailrec def fibTailRecursionHelper(previousState: Int, state: Int, depth: Int): Int =
           if (depth == -1) previousState
