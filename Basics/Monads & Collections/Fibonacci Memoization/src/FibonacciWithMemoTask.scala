@@ -1,9 +1,12 @@
+import scala.collection.mutable
+
 object FibonacciWithMemoTask {
   def memoFibonacci(): Int => Long = {
-    def fib(n: Int): Long = {
-      if (n == 0) 0
-      else if (n == 1) 1
-      else fib(n - 1) + fib(n - 2)
+    val cache = mutable.HashMap.empty[Int, Long]
+    def fib(n: Int): Long = n match {
+      case 0 => 0
+      case 1 => 1
+      case x => cache.getOrElseUpdate(x, fib(x - 1) + fib(x - 2))
     }
 
     fib
