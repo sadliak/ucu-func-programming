@@ -3,15 +3,15 @@ files:
 - name: src/TakeWordsTask.scala
   visible: true
   placeholders:
-  - offset: 139
-    length: 3
+  - offset: 106
+    length: 596
     placeholder_text: ???
     initial_state:
       length: 3
       offset: 139
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       seq
           .flatMap(decoupleLineSeparator(Nil, _))
@@ -74,5 +74,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 22 Oct 2021 15:15:59 UTC
 record: -1
