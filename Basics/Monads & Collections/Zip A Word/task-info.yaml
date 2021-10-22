@@ -3,15 +3,15 @@ files:
 - name: src/ZipWordTask.scala
   visible: true
   placeholders:
-  - offset: 118
-    length: 3
+  - offset: 117
+    length: 97
     placeholder_text: ???
     initial_state:
       length: 3
       offset: 118
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       {
           prefixSeq.zip(wordSeq).zip(suffixSeq)
@@ -43,5 +43,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 22 Oct 2021 15:38:06 UTC
 record: -1
