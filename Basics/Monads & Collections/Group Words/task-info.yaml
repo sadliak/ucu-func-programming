@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 79
-    length: 3
+    length: 146
     placeholder_text: ???
     initial_state:
       length: 3
       offset: 79
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       wordsSeq
           .groupBy(_.charAt(0))
@@ -47,5 +47,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 22 Oct 2021 15:33:09 UTC
 record: -1
