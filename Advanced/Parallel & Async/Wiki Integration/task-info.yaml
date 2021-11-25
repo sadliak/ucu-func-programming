@@ -3,15 +3,15 @@ files:
 - name: src/WikiIntegrationTask.scala
   visible: true
   placeholders:
-  - offset: 584
-    length: 3
+  - offset: 556
+    length: 888
     placeholder_text: ???
     initial_state:
       length: 3
       offset: 584
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       {
           implicit val system: ActorSystem[Nothing] = ActorSystem(Behaviors.empty, "SingleRequest")
@@ -87,5 +87,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 25 Nov 2021 01:46:26 UTC
 record: -1
